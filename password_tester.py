@@ -7,8 +7,6 @@ from getpass import getpass
 
 from password_analyzer import analizar_password
 from hibp_api import check_pwned
-
-log_path = "/Users/aitormiguelez/Documents/Projects/secmifor/.cursor/debug.log"
 def _log(msg, data=None, hypothesis_id=None, location=None):
     try:
         with open(log_path, "a") as f:
