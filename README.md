@@ -1,6 +1,6 @@
 # Password Tester
 
-Pequeña herramienta en Python para evaluar la fortaleza de una contraseña y comprobar si ha aparecido en filtraciones públicas (Have I Been Pwned).
+Herramienta en Python para evaluar la fortaleza de una contraseña y comprobar si ha aparecido en filtraciones públicas (Have I Been Pwned).
 
 ## Características
 
