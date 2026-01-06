@@ -20,3 +20,5 @@ source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
 python password_tester.py
+
+<img width="697" height="432" alt="image" src="https://github.com/user-attachments/assets/76e8f989-1d42-4f38-a289-e577ffd2d596" />
