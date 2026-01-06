@@ -10,7 +10,7 @@ Análisis de:
   - entropía no 100% cierta
 - Puntuación de 0 a 100
 - Recomendaciones automáticas de mejora
-- Comprobación opcional en la API de Pwned Passwords (HIBP) usando k-anonymity
+- Comprobación opcional en la API de Pwned Passwords
 - Interfaz de línea de comandos (CLI) sencilla
 
 ## Como usarla
