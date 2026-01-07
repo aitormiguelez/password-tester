@@ -7,12 +7,6 @@ from getpass import getpass
 
 from password_analyzer import analizar_password
 from hibp_api import check_pwned
-def _log(msg, data=None, hypothesis_id=None, location=None):
-    try:
-        with open(log_path, "a") as f:
-            f.write(json.dumps({"timestamp": __import__("time").time() * 1000, "sessionId": "debug-session", "runId": "run1", "hypothesisId": hypothesis_id or "D", "location": location or "password_tester.py", "message": msg, "data": data or {}}) + "\n")
-    except: pass
-
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Pequeño tester de contraseñas en Python")
